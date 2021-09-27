@@ -7,6 +7,7 @@
   	<parameter name="browserName" value="chrome"></parameter>
     <classes>
       <class name="com.skillrary.actitime.testscripts.TC001"/>
+      <!-- <class name="com.skillrary.actitime.testscripts.TC004"/> -->
   <!--     <class name="com.skillrary.actitime.testscripts.TC002"/>
       <class name="com.skillrary.actitime.testscripts.TC003"/> -->
     </classes>
@@ -19,6 +20,7 @@
       <class name="com.skillrary.actitime.testscripts.TC001"/>
       <class name="com.skillrary.actitime.testscripts.TC002"/>
       <class name="com.skillrary.actitime.testscripts.TC003"/>
+      <class name="com.skillrary.actitime.testscripts.TC004"/>
     </classes>
   </test> Test -->
 
