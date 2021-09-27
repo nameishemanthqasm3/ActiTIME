@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="5">
+  <parameter name="appUrl" value="https://demo.actitime.com/reports/reports.do"></parameter>
+  
+  <test name="ChromeTest">
+  	<parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.skillrary.actitime.testscripts.TC001"/>
+  <!--     <class name="com.skillrary.actitime.testscripts.TC002"/>
+      <class name="com.skillrary.actitime.testscripts.TC003"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- <test name="Test">
+  	<parameter name="appUrl" value="https://demo.actitime.com/reports/reports.do"></parameter>
+  	<parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="com.skillrary.actitime.testscripts.TC001"/>
+      <class name="com.skillrary.actitime.testscripts.TC002"/>
+      <class name="com.skillrary.actitime.testscripts.TC003"/>
+    </classes>
+  </test> Test -->
+
+</suite> <!-- Suite -->
